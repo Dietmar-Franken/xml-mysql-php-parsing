@@ -1,0 +1,19 @@
+CREATE DATABASE tutorial4;
+
+USE tutorial4;
+
+
+CREATE TABLE Student (
+  
+  id int PRIMARY KEY AUTOINCREMENT,
+  first_name varchar(100) NOT NULL,
+  last_name varchar(100) NOT NULL,
+  age int(10) NOT NULL
+  
+  );
+
+
+INSERT into student(first_name,last_name,age) VALUES ("Greig","Taegan",25);
+INSERT into student(first_name,last_name,age) VALUES ("Danilo", "Spartak",22);
+INSERT into student(first_name,last_name,age) VALUES ("Antonio" ,"Siegfried",33);
+INSERT into student(first_name,last_name,age) VALUES ("Gerben", "Bart",23);
